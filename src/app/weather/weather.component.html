@@ -1,0 +1,13 @@
+<div *ngIf="error$ | async as error">
+    <h1 class="error-message">
+        <mat-icon>error</mat-icon>
+        {{ error }}</h1>
+</div>
+<div *ngIf="data$ | async as data">
+    <div class="page">
+        <app-day-weather [value]="data.pastCondtitions"></app-day-weather>
+        <app-day-weather [value]="data.currentConditions"></app-day-weather>
+        <app-day-weather [value]="data.futureCondtitions"></app-day-weather>
+    </div>
+</div>
+<button class="page__button" (click)="update()">Следующие 3 дня</button>
