@@ -28,4 +28,5 @@ https://www.figma.com/file/VQuw3mm2nXPdCQGVQHgbuN/Untitled?node-id=0%3A1
 
 Для деплоя использовался firebase
 
-Для просмотра в сети интернет перейдите по ссылке https://weatherforecastjerdo.web.app
+# Для просмотра в сети интернет перейдите по ссылке
+ https://weatherforecastjerdo.web.app
